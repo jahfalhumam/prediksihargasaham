@@ -41,7 +41,7 @@ if not st.session_state["mulai"]:
         st.session_state["halaman"] = "mulai"
         st.rerun()
 if st.session_state["mulai"]:
-    st.sidebar.info("Pengaturan di atas silakan disesuaikan dengan kebutuhan. Sistem akan langsung memroses setiap perubahan yang dilakukan.")
+    st.sidebar.info("Pengaturan di atas silakan disesuaikan dengan kebutuhan. Sistem akan langsung memproses setiap perubahan yang dilakukan.")
 
 halaman = st.session_state["halaman"]  
 if halaman == "beranda":
